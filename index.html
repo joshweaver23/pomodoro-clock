@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Josh Weaver</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto+Mono'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <header class="text-center"><h1>Pomodoro Clock</h1></header>
+  <div class="main col-sm-8 col-sm-offset-2">
+    <div class="timer text-center">
+      <div class="timer-outer">
+        <div class="timer-inner"><div class="time">25:00</div></div>
+      </div>
+      <div class="meter"><span></span></div>
+    </div>
+    <div class="settings text-center row">
+      <div class="session-time col-md-4">
+        Session Time
+        </br>
+        <button id="session-sub">-</button>
+        <span id="session-time">25:00</span>
+        <button id="session-add">+</button>
+      </div>
+      <div class="short-break col-md-4">
+        Short Break
+        </br>
+        <button id="short-sub">-</button>
+        <span id="short-time">5:00</span>
+        <button id="short-add">+</button>
+      </div>
+      <div class="long-break col-md-4">
+        Long Break
+        </br>
+        <button id="long-sub">-</button>
+        <span id="long-time">30:00</span>
+        <button id="long-add">+</button>
+      </div>
+    </div>
+    <div class="pomodoro-tracking text-center"></div>
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

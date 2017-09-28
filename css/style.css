@@ -1,0 +1,85 @@
+body {
+  background-color: #555;
+  font-family: "Roboto Mono";
+}
+
+.container {
+  margin-top: 35px;
+}
+.container header h1 {
+  font-size: 45px;
+  color: #ddd;
+}
+.container .main .timer .timer-outer {
+  border: 10px solid #66aa64;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .main .timer .timer-outer .timer-inner {
+  background: #66aa64;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.container .main .timer .timer-outer .timer-inner .time {
+  padding-top: 35%;
+  font-size: 45px;
+}
+.container .main .timer .timer-outer .timer-inner:hover {
+  cursor: pointer;
+}
+.container .main .timer .meter {
+  height: 30px;
+  position: relative;
+  background: #555;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  padding: 7px;
+  margin: 15px auto;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+.container .main .timer .meter span {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #66aa64;
+  background-image: linear-gradient(center bottom, #2bc253 37%, #54f054 69%);
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+.container .main .settings {
+  margin-top: 15px;
+  font-size: 1.4em;
+}
+.container .main .settings button {
+  border: none;
+  background: none;
+  font-size: 1.4em;
+}
+.container .main .settings .session-time {
+  border: 1px solid #333;
+  background-color: #66aa64;
+}
+.container .main .settings .short-break {
+  border: 1px solid #333;
+  background-color: #aa6364;
+}
+.container .main .settings .long-break {
+  border: 1px solid #333;
+  background-color: #6384aa;
+}
+.container .sleep-sprite {
+  margin: 10px;
+}
